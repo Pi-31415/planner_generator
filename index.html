@@ -8,11 +8,12 @@
 <body>
 
 	<script>
-		// Default export is a4 paper, portrait, using millimeters for units
-		var doc = new jsPDF()
-
-		doc.text('Hello world!', 10, 10)
-		doc.save('a4.pdf')
+		// Landscape export, 2×4 inches
+		var doc = new jsPDF({
+			orientation: 'landscape'
+		})
+		doc.text('Hello world!', 0, 5);
+		doc.save('a4.pdf');
 
 	</script>
 
