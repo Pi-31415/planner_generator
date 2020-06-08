@@ -1,2 +1,4 @@
-# planner_generator
-A weekly planner generator in the format I use - ready for printing
+# planner-generator
+A personal planner template in word, based on the 'time-blocking method' by Cal Newport.
+
+![Image of preview](preview.png)
